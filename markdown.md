@@ -135,7 +135,7 @@ Wie vieles andere auch kann die Darstellung der Tabelle mit CSS gesteuert werden
 
 ## Fußnoten (pandoc)
 
-Auch Fußnoten kennt das Original-Markdown nicht. Bei Pandoc werden Fußnoten so wie hier gezeigt umgesetzt^[Das hier ist der Fußnotentext]. Leider kann das hier im Preview nicht korrekt dargestellt werden. 
+Auch Fußnoten kennt das Original-Markdown nicht. Bei Pandoc werden Fußnoten so wie hier gezeigt umgesetzt^[Das hier ist der Fußnotentext]. Leider kann das nicht in allen Preview-Szenarien korrekt dargestellt werden. 
 
 
 ## Formeln (pandoc)
@@ -144,10 +144,12 @@ Auch Formeln kann das Original-Markdown nicht korrekt darstellen. Pandoc erlaubt
 
 $c = \sqrt{ a ^2 + b ^2}$
 
+Auch das wird nun nicht in allen Preview-Szenarien korrekt dargestellt.
+
 
 ## Bibliographische Angaben (pandoc)
 
-Auch bibliographische Referenzen beherrscht das Original-Markdown nicht. Für die Transformation mit pandoc kann man aber Referenzen in eckigen Klammern und mit einem `@` verwenden, die dann auf einen Identifier in einer BibTex-Datei verweisen müssen [@burke_social_2012]. 
+Auch bibliographische Referenzen beherrscht das Original-Markdown nicht. Für die Transformation mit pandoc kann man aber Referenzen in eckigen Klammern und mit einem `@` verwenden, die dann auf einen Identifier in einer BibTex-Datei verweisen müssen [@burke_social_2012]. Das klappt aber erst im vollwertigen pandoc-Szenario. 
 
 
 Das war eigentlich das Wesentliche der Markdown-Syntax! 
