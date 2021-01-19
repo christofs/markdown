@@ -123,7 +123,7 @@ Eine Definition der Darstellungsgröße ist aber nicht möglich. Dafür muss man
 
 ## Tabellen
 
- Tabellen sind nicht Teil der ursprünglichen Markdown-Syntax.
+ Tabellen sind nicht Teil der ursprünglichen Markdown-Syntax. Bitte beachten, dass hier die Ausrichtung des Textes in der zweiten Zeile mit den Doppelpunkten gesteuert wird. 
 
 | Rad      |  Farbe  | Preis   | 
 |:---------|:-------:|--------:|
