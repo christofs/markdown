@@ -114,11 +114,11 @@ Alternativ kann man Code auch durch Einrückung mit vier Leerzeichen als solchen
 
 `![]()`
 
-![Alternativtext, der für die Bildunterschrift verwendet wird](img/wikidata-logo.png "Titel des Bildes (Mouseover)")
+![Alternativtext, der für die Bildunterschrift verwendet wird](wikidata-logo.png "Titel des Bildes (Mouseover)")
 
 Eine Definition der Darstellungsgröße ist aber nicht möglich. Dafür muss man das Bild dann doch über HTML einfügen, was aber auch kein Problem ist. Hier also das Bild nochmal in klein. 
 
-<img src="img/wikidata-logo.png" width="100px"/>
+<img src="wikidata-logo.png" width="100px"/>
 
 
 ## Tabellen
